@@ -1,4 +1,4 @@
-<div class="form-check @if(null !== $attributes->get('inline')) form-check-inline @endif">
+<div class="form-check me-2 @if(null !== $attributes->get('inline')) form-check-inline @endif">
     <input
         {!! $attributes->merge(['class' => 'form-check-input' . ($hasError($name) ? ' is-invalid' : '')]) !!}
 
